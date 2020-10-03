@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1150px;
+	background-color: #ffffff;
+	margin: auto;
+	/*font-family: 'Sansita Swashed', cursive;*/
+	font-family: 'Architects Daughter', cursive;
+}
+
+.img-box {
+	border: 1px solid black;
+	width: 419px;
+	height: 419px;
+	border-radius: 50%;
+	margin: 20px auto;
+	overflow: hidden;
+	box-shadow: 0px 0px 3px black;
+	transition: 1s;
+}
+
+.img-box img {
+	max-width: 500px;
+}
+
+.img-box:hover {
+	box-shadow: 0 0 30px gray;
+}
+.about{}
+.about h1{
+    font-size: 31px;
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+}
+
+.about h1 span{
+    color: green;
+}
